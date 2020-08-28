@@ -11,6 +11,7 @@ header{
   background-image: url("../img/header.png");
   height: 620px;
   background-position: fixed;
+  width: 100%;
 }
 
 .top-wrapper{
@@ -22,7 +23,7 @@ header{
 
 .menu{
   height: 64px;
-  width: 960px;
+  width: 80%;
   border: 1px dashed #FFFFFF;
   margin-right: auto;
   margin-left: auto;
@@ -30,6 +31,7 @@ header{
   position: absolute;
   top: 30px;
   left: 150px;
+  /* position: fixed; */
 }
 
 .menu h1{
@@ -199,6 +201,13 @@ main h1{
   padding-top: 50px;
 }
 
+h2{
+  font-family: Poppins;
+  font-size: 30px;
+  color: #333333;
+  padding-top: 50px;
+}
+
 main section p{
   color: #2B2B2B;
   font-size: 16px;
@@ -290,17 +299,18 @@ font-size: 24px;
 }
 
 .info{
-  margin-top: 212px;
+  margin-top: 400px;
   width: 960px;
   margin-right: auto;
   margin-left: auto;
-  border-top: 1px dashed #707070;
+  
 }
 
 .info-text h1{
   text-align: center;
   margin-top: 250px;
-  font-size: 36px;
+  font-size: 40px;
+  font-family: poppins, sans-serif;
 }
 
 .info-text p{
@@ -376,4 +386,122 @@ footer{
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+@media(max-width: 375px){
+
+body{
+  width: 100%;
+}  
+header{
+  width: 100%;
+}
+
+.menu{
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 70px;
+}
+
+.burger-menu{
+  left: 200px;
+}
+
+.close-menu{
+  left: 180px;
+}
+main{
+  width: 100%;
+}
+
+.work{
+  margin-top: 20px;
+}
+
+.work .border{
+  border-bottom: none;
+}
+
+.group1{
+  margin-top: 50px;
+}
+
+.decoration{
+  padding-top: 80px;
+}
+
+.florist{
+  margin-top: 80px;
+}
+.concept-backcolor{
+  width: 100%;
+  margin: 0px;
+}
+
+.container{
+  display: block;
+}
+
+.container img{
+  width: 100%;
+}
+
+.backcolor2{
+  width: 375px;
+  margin: 0px;
+}
+
+.member{
+  display: block;
+  width: 100%;
+}
+
+.info{
+  width: 100%;
+  margin-top: 1250px;
+}
+
+.shop-info{
+  display: block;
+  margin-top: 30px;
+}
+
+.shop-info img{
+  width: 100%;
+}
+
+ main h1{
+  font-size: 50px;
+}
+
+main p{
+ font-size: 20px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+main h2{
+  text-align: left;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.florist h2, .florist p{
+  padding-left: 35px;
+}
+
+.member section{
+  padding-bottom: 30px;
+}
+table{
+  padding: 20px 0px;
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+}
+
 }
