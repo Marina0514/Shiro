@@ -435,8 +435,7 @@ main{
   margin-top: 80px;
 }
 .concept-backcolor{
-  width: 100%;
-  margin: 0px;
+  display: none;
 }
 
 .container{
